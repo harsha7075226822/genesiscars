@@ -10,7 +10,7 @@ export default function App() {
   return (
     <div className="min-h-dvh bg-neutral-900 text-neutral-100">
       <Navbar />
-      <main className='flex flex-col pt-5 justify-center align-center'>
+      <main className='flex flex-col pt-16 md:pt-20 justify-center align-center'>
         <Carousel />
         <Models />
         <Vision />
