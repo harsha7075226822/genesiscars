@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-nav-bar {
+    background-color: #000000;
+}
+
+.slide {
+    height: 100%;
+}
+
+
+.image-logo-car {
+    width: 70%;
+}
+
+.heading {
+    font-size: 25px;
+}
+
+.heading-models-experience {
+    color: white;
+    font-family: "Roboto";
+    padding: 10px;
+    font-size: 20px;
+}
+
+.search-bar-image-logo {
+    height: 50px;
+}
+
+.container-fluid {
+    background-color: black;
+    background-size: cover;
+}
+
+.h2 {
+    color: #D0D3D4;
+    font-family: "Modren";
+    font-size: 20px;
+}
+
+.card {
+    margin-top: 75px;
+}
+
+.heading {
+    color: white;
+    font-family: "Lydian";
+    padding: 20px;
+}
+
+.head1 {
+    font-family: "cooper";
+    color: white;
+    padding: 50px;
+}
+
+.hed {
+    text-align: center;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Styling */
+.footer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 40px;
+    background-color: #111;
+    color: #fff;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.genesisgv80 {
+    font-family: "oldstyle";
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #fff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+.outlook {
+    text-align: right;
+    margin: 0px;
+    padding: 0px;
+}
+
+.outlook1 {
+    text-align: center;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Contact Us Container */
+.contact-us-container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+/* Title and Description */
+.contact-us-container h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact-us-container p {
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+.contact-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    text-align: left;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+/* Input Fields */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #dcdcdc;
+    resize: none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Submit Button */
+.contact-form button {
+    padding: 12px;
+    background-color: #616A6B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: grey;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .contact-us-container {
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+.container1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    height: 20vh;
+}
+
+.card-title {
+    font-family: "cooperplate gl";
+    font-weight: bold;
+    color: grey;
+}
+
+.head2 {
+    color: white;
+    font-family: "irom man";
+    padding: 20px;
+    font-size: 20px;
+}
+
+.paragraph {
+    color: #dcdcdc;
+}
+
+.black {
+    cursor: pointer;
+}
+
+.btn-txt {
+    color: white;
+}
+
+.paragraph {
+    background-color: gray;
+}
+
+.contactush1 {
+    background-color: black;
+}
